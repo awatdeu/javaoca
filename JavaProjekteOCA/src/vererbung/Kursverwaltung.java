@@ -1,4 +1,4 @@
-package Vererbung;
+package vererbung;
 
 class JavaKurs {
 	private String kursNummer;
@@ -53,7 +53,7 @@ class Teilnehmer extends Person {
 
 public class Kursverwaltung {
 	public static void main(String[] args) {
-		JavaKurs grundlagenKurs = new JavaKurs("Java-OCA");
+		JavaKurs grundlagenKurs = new JavaKurs("Java-101");
 
 		Dozent dozentSchmidt = new Dozent("Schmidt", "D-007");
 
