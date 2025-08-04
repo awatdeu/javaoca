@@ -9,7 +9,6 @@ public class Test {
         System.out.println("--- Test der laufen-Methode ---");
         hund.laufen();
         katze.laufen();
-        hund.laufen();
 
         System.out.println("\n--- Test der statischen print-Methode (mit Details) ---");
         print(hund);
