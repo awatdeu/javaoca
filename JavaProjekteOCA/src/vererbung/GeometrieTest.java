@@ -2,6 +2,7 @@ package vererbung;
 
 
 abstract class Figur {
+	
 	 protected int x;
 	 protected int y;
 
@@ -47,7 +48,9 @@ abstract class Figur {
 
 
 	public class GeometrieTest {
+		
 	 public static void main(String[] args) {
+		 
 	     System.out.println("--- Rechteck ---");
 	     Rechteck r1 = new Rechteck(3, 4, 0, 0);
 	     System.out.println("Anfang: " + r1.getKoordinaten());
