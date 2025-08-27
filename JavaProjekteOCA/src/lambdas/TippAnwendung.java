@@ -44,7 +44,7 @@ public class TippAnwendung {
         sucheTipps(tipps, tipp -> Arrays.asList(tipp.getThemen()).contains("Interfaces"));
 
         System.out.println("--- A8.2: Beispiel 2 - Tipps , deren Text mehr als 60 Zeichen lang ist  ---");
-        sucheTipps(tipps, tipp -> tipp.getText().length() > 60);
+        sucheTipps(tipps, tipp -> tipp.getText().length() > 100);
     }
 
  
