@@ -52,7 +52,7 @@ class Kreis extends GeometrischeFigur {
     
     @Override
     public String toString() {
-        return "Dies ist ein Kreis mit dem Radius: " + this.radius + ". " + getKoordinaten();
+        return "Dies ist ein Kreis mit Radius: " + this.radius + ". " + getKoordinaten();
     }
 }
 
@@ -84,7 +84,7 @@ public class GeometrieAufgabe {
         
         System.out.println("Neuer Zustand:  " + kreis.getKoordinaten());
 
-        System.out.println("\n--- Optionale Aufgabe ---");
+        System.out.println("\n  -Optional Aufgabe-");
      
         System.out.println(kreis);
     }
